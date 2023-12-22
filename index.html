@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Color MS COCO Dataset</title>
+    <style>
+        /* CSS styles can be included within <style> tags or in a separate CSS file */
+        /* Add your CSS styles here for better presentation */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Exploring Color Information as Auxiliary Conditioning for Image Colourization in MS COCO Dataset</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Datasets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p><p align="justify"> Colourizing grayscale images with various objects and colours poses a significant challenge for many image colourization algorithms, particularly when confronted with intricate real-world scenes. The conventional approaches often encounter difficulties in generating consistent colour outputs due to the one-to-many association of colourization. In this work, we propose a novel methodology that leverages textual descriptions of the objects present in a scene as an additional input to grayscale images, thereby enhancing the accuracy of the colourization process. Our approach involves a deep network that takes two inputs: the grayscale image itself and its corresponding eencoded text description and aims to colourize the grayscale image. We predict the relevant colour components by training the network to understand the correlation between the image and its textual description. To accomplish this, we adopt a multi-modal feature attention approach that helps to colourize the detected objects using the instance object colourization (IOC) module.The proposed IOC module is conditioned on the grayscale image and its associated language description. Our approach diverges from traditional colourization techniques that primarily rely on unconditional generation, where the colours are solely predicted from the input grayscale image. Instead, our approach capitalizes on the fusion of the image and its accompanying text description to achieve more accurate and consistent colourization results. In this paper, we also create a dataset using the COCO dataset that describes the colour information of every object of the dataset.</p>
+        <!-- Your home section content here -->
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>About our data-based website.</p>
+        <!-- Your about section content here -->
+    </section>
+
+    <section id="services">
+        <h2>Datasets</h2>
+        <p>Datasets example:</p>
+        <!-- Your services section content here -->
+
+
+        <ul>
+            <li>image 1</li>
+            <img src="data.png" style= "width:600px;height:250px;"> 
+            <li>image 2</li>
+            <img src="data1.png" style="width:600px;height:250px";>
+            <!-- <li>Service 3</li> -->
+        </ul>
+
+        <p>Downloads:</p>
+
+    <a href="data.zip" target="_blank">  A sample dataset  for download  </a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact information:</p>
+        <!-- Your contact section content here -->
+        <p>Email: sgcs2005@gmail.com.com</p>
+        <p>Email: sgcs2005@gmail.com.com</p>
+
+
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 </p>
+    </footer>
+</body>
+
+</html>
